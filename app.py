@@ -77,8 +77,7 @@ behavioral_problems = st.selectbox("Behavioral problems", [0,1])
 # ============================
 # LOAD MODEL
 # ============================
-
-model = joblib.load("lightgbm_model.pkl")
+model = joblib.load("alzheimers_questionnaire_model.pkl")
 
 # ============================
 # PREDICTION
